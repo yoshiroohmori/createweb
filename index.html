@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ja" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>山田太郎 | Web Designer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="#" class="logo">TARO YAMADA</a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#works" class="nav-link">Works</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" aria-label="テーマ切り替え">
+        <span class="theme-icon">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- 1. Hero Section -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content fade-in">
+      <h1 class="hero-title">Colors Logic, Designs Magic.</h1>
+      <p class="hero-subtitle">色彩検定1級の知識と確かなコーディング技術で、企業の想いを「伝わる」形に。CVR向上に貢献するWebデザインを提供します。</p>
+      <div class="hero-cta">
+        <a href="#works" class="btn btn-primary">実績を見る</a>
+        <a href="#contact" class="btn btn-secondary">お問い合わせ</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. About Section -->
+  <section id="about" class="about section">
+    <div class="container">
+      <h2 class="section-title fade-in">Who I Am</h2>
+      <div class="about-grid fade-in">
+        <div class="about-image-wrapper">
+          <img src="https://placehold.co/300x300/2c3e50/ffffff?text=Taro+Y" alt="山田太郎 プロフィール画像" class="about-img">
+        </div>
+        <div class="about-text">
+          <p class="about-intro">はじめまして、Webデザイナーの山田太郎です。</p>
+          <p>都内の制作会社で3年間、企業のコーポレートサイトや商品LPの制作に従事し、現在はフリーランスとして活動しています。</p>
+          
+          <div class="about-box">
+            <h3>強み</h3>
+            <p>ただ綺麗なだけでなく、色彩心理学に基づいた配色設計が得意です。「信頼感を与える青」「購買意欲をそそる赤」など、目的に合わせた色使いでビジネスの課題解決をサポートします。</p>
+          </div>
+          
+          <p class="about-hobby"><strong>趣味：</strong> 街中の看板の配色分析、カフェ巡り。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Skills Section -->
+  <section id="skills" class="skills section bg-alt">
+    <div class="container">
+      <h2 class="section-title fade-in">My Skills</h2>
+      <div class="skills-grid">
+        
+        <div class="skill-card fade-in">
+          <h3 class="skill-category">Design</h3>
+          <ul class="skill-list">
+            <li>
+              <span class="skill-name">Figma / Adobe XD</span>
+              <span class="skill-desc">ワイヤーフレーム・プロトタイプ作成</span>
+            </li>
+            <li>
+              <span class="skill-name">Photoshop</span>
+              <span class="skill-desc">写真補正・バナー作成</span>
+            </li>
+            <li>
+              <span class="skill-name">Illustrator</span>
+              <span class="skill-desc">ロゴ・アイコン作成</span>
+            </li>
+            <li>
+              <span class="skill-name">色彩検定1級</span>
+              <span class="skill-desc">AFT認定</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="skill-card fade-in">
+          <h3 class="skill-category">Development</h3>
+          <ul class="skill-list">
+            <li>
+              <span class="skill-name">HTML5</span>
+              <span class="skill-desc">セマンティックなマークアップ</span>
+            </li>
+            <li>
+              <span class="skill-name">CSS3 / SCSS</span>
+              <span class="skill-desc">Flexbox, Grid, BEM設計</span>
+            </li>
+            <li>
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-desc">DOM操作, アニメーション</span>
+            </li>
+            <li>
+              <span class="skill-name">WordPress</span>
+              <span class="skill-desc">オリジナルテーマ作成</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Works Section -->
+  <section id="works" class="works section">
+    <div class="container">
+      <h2 class="section-title fade-in">Selected Works</h2>
+      <div class="works-grid">
+        
+        <!-- Case 1 -->
+        <article class="work-card fade-in">
+          <div class="work-img-wrapper">
+            <img src="https://placehold.co/600x400/1e2b37/ffffff?text=TechStyle+Inc." alt="株式会社テックスタイル">
+          </div>
+          <div class="work-content">
+            <h3 class="work-title">株式会社テックスタイル</h3>
+            <span class="work-tag">コーポレートサイト</span>
+            <p class="work-desc">信頼感を重視したネイビー基調のデザイン。レスポンシブ対応によりスマホからの問い合わせが120%増加。</p>
+          </div>
+        </article>
+
+        <!-- Case 2 -->
+        <article class="work-card fade-in">
+          <div class="work-img-wrapper">
+            <img src="https://placehold.co/600x400/d4ac0d/ffffff?text=Lumiere+LP" alt="美容液 Lumiere">
+          </div>
+          <div class="work-content">
+            <h3 class="work-title">美容液「Lumiere」</h3>
+            <span class="work-tag">ランディングページ</span>
+            <p class="work-desc">ターゲット層（30代女性）に響くゴールドとピンクの配色。FV（ファーストビュー）の離脱率改善に貢献。</p>
+          </div>
+        </article>
+
+        <!-- Case 3 -->
+        <article class="work-card fade-in">
+          <div class="work-img-wrapper">
+            <img src="https://placehold.co/600x400/d35400/ffffff?text=Sun+%26+Beans" alt="カフェ Sun & Beans">
+          </div>
+          <div class="work-content">
+            <h3 class="work-title">カフェ「Sun & Beans」</h3>
+            <span class="work-tag">店舗サイト</span>
+            <p class="work-desc">暖色系で居心地の良さを表現。メニューのシズル感を引き立てるレイアウト。</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Contact Section -->
+  <section id="contact" class="contact section bg-alt">
+    <div class="container">
+      <h2 class="section-title fade-in">Get In Touch</h2>
+      <p class="contact-lead fade-in">制作のご依頼、お見積もり、その他ご相談はお気軽にどうぞ。<br>2営業日以内に返信いたします。</p>
+      
+      <form class="contact-form fade-in" onsubmit="event.preventDefault(); alert('送信機能はデモです。');">
+        <div class="form-group">
+          <label for="name">お名前</label>
+          <input type="text" id="name" name="name" required placeholder="山田 太郎">
+        </div>
+        <div class="form-group">
+          <label for="email">メールアドレス</label>
+          <input type="email" id="email" name="email" required placeholder="example@email.com">
+        </div>
+        <div class="form-group">
+          <label for="message">お問い合わせ内容</label>
+          <textarea id="message" name="message" rows="5" required placeholder="ご相談内容をご記入ください"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-submit">送信する</button>
+      </form>
+
+      <div class="sns-links fade-in">
+        <a href="#" class="sns-link" target="_blank" rel="noopener">X (Twitter)</a>
+        <a href="#" class="sns-link" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Taro Yamada. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
